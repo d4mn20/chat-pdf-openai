@@ -27,6 +27,22 @@ https://docs.docker.com/engine/install/ubuntu/
 
 `docker-compose ps`
 
+## Acessar o APP
+
+- Server: http://localhost:8501/
+
+## Acessar o Milvus
+
+- Server: http://localhost:8000/
+- User: root
+- Pass: root
+
+## Acessar o Minio
+
+- Server: http://localhost:9001/
+- User: minioadmin
+- Pass: minioadmin
+
 ## Parando a Aplicação
 
 `docker-compose down`
@@ -34,6 +50,13 @@ https://docs.docker.com/engine/install/ubuntu/
 ## Inspecionando a Rede do Docker
 
 `docker network inspect milvus`
+
+## Removendo todos os containers (use com cuidado)
+
+`docker system prune`
+
+## Excluíndo volume minio
+```sudo rm -rf volumes```
 
 ## Corrigir no Docker: Got permission denied issue
 
@@ -58,3 +81,4 @@ Nova versão:
 ```
 chain = chat_template | llm | {"resposta": StrOutputParser()}
 ```
+
