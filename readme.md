@@ -24,6 +24,7 @@ https://docs.docker.com/engine/install/ubuntu/
 ## Iniciando a Aplicação
 
 `docker-compose up -d`
+
 `docker-compose ps`
 
 ## Parando a Aplicação
@@ -39,6 +40,7 @@ https://docs.docker.com/engine/install/ubuntu/
 ### Adicione seu usuário ao grupo do Docker
 
 `sudo usermod -aG docker $USER`
+
 `exec su -l $USER`
 
 ### Erros de versão
