@@ -1,5 +1,5 @@
 # app/Dockerfile
-FROM python:3.12-slim
+FROM python:3.13.0b1-slim
 LABEL authors="tiagocardoso"
 
 # dont write pyc files
