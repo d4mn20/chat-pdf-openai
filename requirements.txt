@@ -137,7 +137,7 @@ typing_extensions==4.11.0
 tzdata==2024.1
 ujson==5.10.0
 uptrace==1.24.0
-urllib3==2.2.1
+urllib3==2.2.2
 uvicorn==0.25.0
 validators==0.28.1
 watchdog==4.0.0
